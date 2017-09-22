@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+      <link type="text/css" rel="stylesheet" href="css/style.css"  media="screen,projection"/>
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+    <body>
+      <!-- Header Section -->
+      <header class="container">
+        <div class="row grey">
+          <div class="col s12">
+            <h1>Royalty Free Music Player</h1>
+          </div>
+        </div>
+      </header>
+
+
+
+      <!-- Body Content Section -->
+      <div class="container">
+        <div class="row">
+          <div class="col s12">
+            <ul class="collection">
+              <li class="collection-item avatar">
+                <a class="circle btn-floating btn-large waves-effect waves-light red" onclick="playAudio()"><i alt="" class="material-icons">play_arrow</i></a>
+                <span class="flow-text">Song Title</span>
+                <p>Artist</p>
+              </li>
+              <li class="collection-item avatar">
+                <i alt="" class="circle material-icons">play_arrow</i>
+                <span class="flow-text">Song Title</span>
+                <p>Artist</p>
+              </li>
+              <li class="collection-item avatar">
+                <i alt="" class="circle material-icons">play_arrow</i>
+                <span class="flow-text">Song Title</span>
+                <p>Artist</p>
+              </li>
+              <li class="collection-item avatar">
+                <i alt="" class="circle material-icons">play_arrow</i>
+                <span class="flow-text">Song Title</span>
+                <p>Artist</p>
+              </li>
+              <li class="collection-item avatar">
+                <i alt="" class="circle material-icons">play_arrow</i>
+                <span class="flow-text">Song Title</span>
+                <p>Artist</p>
+              </li>
+            </ul>
+            
+          </div>
+        </div>
+      </div>
+
+      <audio id="myAudio"></audio>
+
+      <!-- Footer Section -->
+      <footer class="container">
+        <div class="row grey darken-3 white-text">
+          <div class="col s1">
+            <i class="medium material-icons">skip_previous</i>
+          </div>
+          <div class="col s1">
+            <i class="medium material-icons">pause</i>
+          </div>
+          <div class="col s1">
+            <i class="medium material-icons">skip_next</i>
+          </div>
+          <div class="col s9">
+            <span class="flow-text">Currently Playing Song Title <br>
+            by Artist</span>
+        </div>
+      </footer>
+      <script type="text/javascript" src="js/audio-control.js"></script>
+      <!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+    </body>
+  </html>
